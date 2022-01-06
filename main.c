@@ -12,8 +12,8 @@ const int program[] = {
 };
 
 int fetch() {
-	ip++;
-	return program[ip-1];
+	pc++;
+	return program[pc-1];
 }
 
 void eval(int inst) {
@@ -42,6 +42,8 @@ void eval(int inst) {
 
 int main(void) {
 	
+	initmemory();
+
 	while (running) {
 		eval(fetch());
 	}
