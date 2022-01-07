@@ -9,7 +9,7 @@ int stacklast = -1;
 uint16_t indexreg = 0x200;
 uint8_t memory[4096];
 
-uint16_t pc = 0;
+uint16_t pc = 0x200;
 bool running = true;
 
 typedef enum {
