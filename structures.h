@@ -1,13 +1,15 @@
 #include <SDL2/SDL.h>
 #include <math.h>
 #include <stdio.h>
+#include <string.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include "features.h"
 
 int ipc = 0;
+int reset = 0;
 
-uint8_t registers[16];
+uint8_t registers[REG_SIZE];
 
 uint8_t delayTimer = 100;
 uint8_t soundTimer = 100;
@@ -15,9 +17,11 @@ uint8_t soundTimer = 100;
 int stacklast = -1;
 uint16_t stack[STACK_SIZE];
 
-uint16_t indexreg = 0x200;
-uint16_t memory[4096];
-uint16_t pc = 0x200;
+uint16_t indexreg = INIT_MEM;
+uint16_t memory[MEM_SIZE];
+uint16_t pc = INIT_MEM;
+
+uint32_t pixels[ORIG_PIXEL_COUNT];
 
 bool running = true;
 
@@ -55,11 +59,22 @@ int * returnROM(char *loc) {
 void loadROM(int *rom) {
 	
 	for (int i = 1; i < rom[0]; i++) {
-		memory[0x200 + i - 1] = rom[i];
-		fprintf(stderr,"Loaded, memory loc %x value is %04x\n",0x200+i-1,memory[0x200+i-1]);
+		memory[INIT_MEM + i - 1] = rom[i];
+		fprintf(stderr,"Loaded, memory loc %x value is %04x\n",INIT_MEM+i-1,memory[INIT_MEM+i-1]);
 	}
 	free(rom);
 
+}
+
+void renderWin(int start, SDL_Renderer *rend) {
+	
+	SDL_RenderClear(rend);
+	SDL_SetRenderDrawColor(rend, 255,255,255,255);
+	for (int i = 0; i < 100; i++) {
+		SDL_RenderDrawPoint(rend, start+i,start+i);
+	}
+	SDL_RenderPresent(rend);
+	
 }
 
 void loadfont(void) {
@@ -95,7 +110,7 @@ void initmemory(void) {
 		memory[i] = 0;
 	}
 	loadfont();
-	for (int i = 0xA0; i < 0x200; i++) {
+	for (int i = 0xA0; i < INIT_MEM; i++) {
 		memory[i] = 0;
 	}
 }
@@ -152,11 +167,21 @@ int fetch(void) {
 
 	fprintf(stderr,"memory: 0x%x\n",pc);
 	pc+=1;
-	return memory[pc-1];
+	if (pc <= MEM_SIZE) {
+		return memory[pc-1];
+	} else {
+		fprintf(stderr, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
+		reset++;
+		if (reset > RESET_THRESHOLD) {
+			running = false;
+		}
+		pc = INIT_MEM;
+		return memory[INIT_MEM];
+	}
 	
 }
 
-void eval(int inst) {
+void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	fprintf(stderr,"inst: %x ",inst);
 	switch (inst) {
@@ -254,12 +279,24 @@ void eval(int inst) {
 					break;
 				case 13:
 					printf("Display\n");
+					uint8_t x = registers[mask(inst,2)] % ORIG_WIDTH;
+					uint8_t y = registers[mask(inst,3)] % ORIG_HEIGHT;
+					registers[mask(inst, 4)] = 0;
+					
+					int n = mask(inst, 4);
+					for (int iter = 0; iter < n; iter++) {
+						uint8_t row = memory[indexreg + iter];
+					}
+					SDL_RenderClear(rend);	
+					SDL_UpdateTexture(tex, NULL, pixels, WIDTH * sizeof(uint32_t));
+					SDL_RenderPresent(rend);
 					break;
 			}
 			break;
 		case 0xE0:
 			printf("\033c");
 			printf("Display func for clear screen\n");
+			SDL_RenderClear(rend);
 			break;
 		case 0xEE:
 			pc = pop();
