@@ -1,21 +1,25 @@
+#include <SDL2/SDL.h>
+#include <math.h>
+#include <stdio.h>
+#include <stdbool.h>
 #include <stdint.h>
 #include "features.h"
 
-#define STACK_SIZE 16
+int ipc = 0;
 
 uint8_t registers[16];
 
-uint16_t stack[STACK_SIZE];
+uint8_t delayTimer = 100;
+uint8_t soundTimer = 100;
+
 int stacklast = -1;
+uint16_t stack[STACK_SIZE];
 
 uint16_t indexreg = 0x200;
 uint16_t memory[4096];
-
 uint16_t pc = 0x200;
-bool running = true;
 
-uint8_t delayTimer = 100;
-uint8_t soundTimer = 100;
+bool running = true;
 
 int * returnROM(char *loc) {
 	
@@ -33,7 +37,7 @@ int * returnROM(char *loc) {
 		out[0] = size;
 		int i = 1;
 		while ((c = fgetc(fp)) != EOF) {
-			out[i] = c*16*16;
+			out[i] = c * pow(16,2);
 			c = fgetc(fp);
 			out[i] += c;
 			i++;
@@ -45,6 +49,16 @@ int * returnROM(char *loc) {
 		return 0;
 	}
 
+
+}
+
+void loadROM(int *rom) {
+	
+	for (int i = 1; i < rom[0]; i++) {
+		memory[0x200 + i - 1] = rom[i];
+		fprintf(stderr,"Loaded, memory loc %x value is %04x\n",0x200+i-1,memory[0x200+i-1]);
+	}
+	free(rom);
 
 }
 
@@ -86,6 +100,20 @@ void initmemory(void) {
 	}
 }
 
+void updateTimers(void) {
+
+	if (delayTimer > 0) {
+		delayTimer--;
+	}
+	if (soundTimer > 0) {
+		//make beep sound
+		soundTimer--;
+	}
+
+	fprintf(stderr, "Delay timer: %d, Sound timer: %d\n",delayTimer,soundTimer);
+
+}
+
 int push(int value) {
 	
 	if (stacklast + 1 < STACK_SIZE ) {
@@ -121,8 +149,8 @@ int mask(uint16_t num, int digit) {
 }
 
 int fetch(void) {
-	
-	printf("memory: 0x%x\n",pc);
+
+	fprintf(stderr,"memory: 0x%x\n",pc);
 	pc+=1;
 	return memory[pc-1];
 	
@@ -130,12 +158,17 @@ int fetch(void) {
 
 void eval(int inst) {
 
-	printf("inst: %x ",inst);
+	fprintf(stderr,"inst: %x ",inst);
 	switch (inst) {
 		default:
 			int firstnibble = mask(inst, 1);
 			switch (firstnibble) {
 				default:
+					if (inst) {
+						fprintf(stderr,"Unknown instruction %x\n",inst);
+					} else {
+						fprintf(stderr,"Maybe uninitialized memory: %x\n",inst);
+					}
 					break;
 				case 2: //so it falls through to case 1
 					push(pc);
@@ -226,6 +259,7 @@ void eval(int inst) {
 			break;
 		case 0xE0:
 			printf("\033c");
+			printf("Display func for clear screen\n");
 			break;
 		case 0xEE:
 			pc = pop();
