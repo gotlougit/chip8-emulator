@@ -16,7 +16,6 @@ void main(void) {
 	memset(pixels, 0, WIDTH*HEIGHT);
 	loadROM(out);
 	while (running) {
-		SDL_UpdateTexture(tex, NULL, pixels, WIDTH * sizeof(uint32_t));
 		time_t beginningTime = time(NULL);
 		for (;ipc < INST_PER_SEC; ipc++) {
 			if (!(ipc % 60)) {
