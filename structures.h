@@ -1,10 +1,7 @@
-#include <SDL2/SDL.h>
-#include <math.h>
 #include <stdio.h>
 #include <string.h>
-#include <stdbool.h>
 #include <stdint.h>
-#include "features.h"
+#include "display.h"
 
 int ipc = 0;
 int reset = 0;
@@ -20,8 +17,6 @@ uint16_t stack[STACK_SIZE];
 uint16_t indexreg = INIT_MEM;
 uint16_t memory[MEM_SIZE];
 uint16_t pc = INIT_MEM;
-
-uint32_t pixels[ORIG_PIXEL_COUNT];
 
 bool running = true;
 
@@ -66,20 +61,9 @@ void loadROM(int *rom) {
 
 }
 
-void renderWin(int start, SDL_Renderer *rend) {
-	
-	SDL_RenderClear(rend);
-	SDL_SetRenderDrawColor(rend, 255,255,255,255);
-	for (int i = 0; i < 100; i++) {
-		SDL_RenderDrawPoint(rend, start+i,start+i);
-	}
-	SDL_RenderPresent(rend);
-	
-}
-
 void loadfont(void) {
 	
-	int font[80] = {
+	uint8_t font[80] = {
 			0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
 			0x20, 0x60, 0x20, 0x20, 0x70, // 1
 			0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
@@ -281,14 +265,39 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					printf("Display\n");
 					uint8_t x = registers[mask(inst,2)] % ORIG_WIDTH;
 					uint8_t y = registers[mask(inst,3)] % ORIG_HEIGHT;
-					registers[mask(inst, 4)] = 0;
-					
+					registers[0xF] = 0;
 					int n = mask(inst, 4);
+
 					for (int iter = 0; iter < n; iter++) {
 						uint8_t row = memory[indexreg + iter];
+						while (row > 0) {
+							int bit = row % 2;
+							bool pixelVal = getPixelVal(x,y);
+							if (bit == pixelVal && bit) {
+								registers[0xF] = 1;
+								setPixel(x,y,false);
+							} else if (bit && !pixelVal) {
+								setPixel(x,y,true);
+							}
+							x++;
+							if (x > ORIG_WIDTH) {
+								x = 0;
+								break;
+							}
+							row = row / 2;
+
+						}
+						y++;
+						if (y > ORIG_HEIGHT) {
+							break;
+						}
 					}
+					SDL_Rect rect;
 					SDL_RenderClear(rend);	
-					SDL_UpdateTexture(tex, NULL, pixels, WIDTH * sizeof(uint32_t));
+					SDL_UpdateTexture(tex, NULL, pixels, ORIG_WIDTH * sizeof(uint16_t));
+					rect.w = WIDTH;
+					rect.h = HEIGHT;
+					SDL_RenderCopyEx(rend, tex, NULL, &rect, 0, NULL, SDL_FLIP_NONE);
 					SDL_RenderPresent(rend);
 					break;
 			}

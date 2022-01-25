@@ -4,22 +4,23 @@
 void main(void) {
 
 	srand(time(NULL));
-	
 	SDL_Init(SDL_INIT_EVERYTHING);
+
 	SDL_Window *win = SDL_CreateWindow(WIN_NAME,SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, WINFLAGS);
 	SDL_Renderer *rend = SDL_CreateRenderer(win, -1, RENDFLAGS);
 
-	SDL_Texture *tex = SDL_CreateTexture(rend, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STATIC, WIDTH, HEIGHT);
+	SDL_Texture *tex = SDL_CreateTexture(rend, SDL_PIXELFORMAT_RGB565, SDL_TEXTUREACCESS_STATIC, ORIG_WIDTH, ORIG_HEIGHT);
+	initmemory();
+	memset(pixels, 0, ORIG_WIDTH*ORIG_HEIGHT - 1);
 
 	int *out = returnROM("ibm.ch8");
-	initmemory();
-	memset(pixels, 0, WIDTH*HEIGHT);
 	loadROM(out);
 	while (running) {
 		time_t beginningTime = time(NULL);
 		for (;ipc < INST_PER_SEC; ipc++) {
 			if (!(ipc % 60)) {
 				updateTimers();
+				printf("updated timer\n");
 			}
 			eval(fetch(), rend, tex);
 		}

@@ -1,3 +1,6 @@
+#include <stdbool.h>
+#include <math.h>
+
 #define EIGHTXY_VY false
 #define BXNN false
 
@@ -22,5 +25,3 @@ const int SCALE_FACTOR = 16;
 
 const int WIDTH = ORIG_WIDTH * SCALE_FACTOR;
 const int HEIGHT = ORIG_HEIGHT * SCALE_FACTOR;
-
-const int PIXEL_COUNT = WIDTH * HEIGHT;
