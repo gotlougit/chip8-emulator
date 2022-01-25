@@ -1,7 +1,9 @@
 #include <SDL2/SDL.h>
 #include "features.h"
 
-#define getPixelAddr(x, y) (y + ORIG_WIDTH*x)
+//macros to make life easier
+
+#define getPixelAddr(x, y) (ORIG_HEIGHT*y + x)
 #define getPixelRow(x,y) (pixels[getPixelAddr(x,y)])
 #define getPixelVal(x,y) ((getPixelRow(x,y) ? true : false))
 

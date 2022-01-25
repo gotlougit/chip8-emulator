@@ -20,7 +20,6 @@ void main(void) {
 		for (;ipc < INST_PER_SEC; ipc++) {
 			if (!(ipc % 60)) {
 				updateTimers();
-				printf("updated timer\n");
 			}
 			eval(fetch(), rend, tex);
 		}

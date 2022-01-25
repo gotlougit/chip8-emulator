@@ -10,7 +10,7 @@
 #define INIT_MEM 0x200
 #define INST_PER_SEC 700
 
-#define RESET_THRESHOLD 10
+#define RESET_THRESHOLD 5
 
 #define WIN_NAME "CHIP-8 Emulator"
 

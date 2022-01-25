@@ -20,6 +20,40 @@ uint16_t pc = INIT_MEM;
 
 bool running = true;
 
+uint8_t font[80] = {
+		0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
+		0x20, 0x60, 0x20, 0x20, 0x70, // 1
+		0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
+		0xF0, 0x10, 0xF0, 0x10, 0xF0, // 3
+		0x90, 0x90, 0xF0, 0x10, 0x10, // 4
+		0xF0, 0x80, 0xF0, 0x10, 0xF0, // 5
+		0xF0, 0x80, 0xF0, 0x90, 0xF0, // 6
+		0xF0, 0x10, 0x20, 0x40, 0x40, // 7
+		0xF0, 0x90, 0xF0, 0x90, 0xF0, // 8
+		0xF0, 0x90, 0xF0, 0x10, 0xF0, // 9
+		0xF0, 0x90, 0xF0, 0x90, 0x90, // A
+		0xE0, 0x90, 0xE0, 0x90, 0xE0, // B
+		0xF0, 0x80, 0x80, 0x80, 0xF0, // C
+		0xE0, 0x90, 0x90, 0x90, 0xE0, // D
+		0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
+		0xF0, 0x80, 0xF0, 0x80, 0x80  // F
+	};
+
+int mask(uint16_t num, int digit) {
+
+	/*
+	printf("num: %x",num);
+	int x = (num & (0xF * (int) pow(16,4 - digit))) / ((int) pow(16,4 - digit));
+	int y = ((num << (4-digit)) % 0x10);
+	printf("x: %x, y: %x\n");
+	if (x == y) {
+		printf("MASK EQUAL!!!");
+	}
+	return x;
+	*/
+	return (num & (0xF * (int) pow(16,4 - digit))) / ((int) pow(16,4 - digit));
+}
+
 int * returnROM(char *loc) {
 	
 	FILE *fp;
@@ -31,9 +65,8 @@ int * returnROM(char *loc) {
 		fseek(fp, 0L, SEEK_END);
 		int size = ftell(fp);
 		rewind(fp);
-
 		int *out = malloc(size*sizeof(int)+1);
-		out[0] = size;
+		out[0] = size/2;
 		int i = 1;
 		while ((c = fgetc(fp)) != EOF) {
 			out[i] = c * pow(16,2);
@@ -45,7 +78,7 @@ int * returnROM(char *loc) {
 		return out;
 	} else {
 		fclose(fp);
-		return 0;
+		return NULL;
 	}
 
 
@@ -63,25 +96,6 @@ void loadROM(int *rom) {
 
 void loadfont(void) {
 	
-	uint8_t font[80] = {
-			0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
-			0x20, 0x60, 0x20, 0x20, 0x70, // 1
-			0xF0, 0x10, 0xF0, 0x80, 0xF0, // 2
-			0xF0, 0x10, 0xF0, 0x10, 0xF0, // 3
-			0x90, 0x90, 0xF0, 0x10, 0x10, // 4
-			0xF0, 0x80, 0xF0, 0x10, 0xF0, // 5
-			0xF0, 0x80, 0xF0, 0x90, 0xF0, // 6
-			0xF0, 0x10, 0x20, 0x40, 0x40, // 7
-			0xF0, 0x90, 0xF0, 0x90, 0xF0, // 8
-			0xF0, 0x90, 0xF0, 0x10, 0xF0, // 9
-			0xF0, 0x90, 0xF0, 0x90, 0x90, // A
-			0xE0, 0x90, 0xE0, 0x90, 0xE0, // B
-			0xF0, 0x80, 0x80, 0x80, 0xF0, // C
-			0xE0, 0x90, 0x90, 0x90, 0xE0, // D
-			0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
-			0xF0, 0x80, 0xF0, 0x80, 0x80  // F
-	};
-
 	for (int i = 0x50; i < 0xA0; i++) {
 		memory[i] = font[i-0x50];
 	}
@@ -136,17 +150,6 @@ int pop(void) {
 
 }
 
-int mask(uint16_t num, int digit) {
-
-	digit = 4 - digit;
-	int x = 0xF * (int) pow(16,digit);
-	num = num & x;
-	x = 0x1 * (int) pow(16,digit);
-	num = (int) num / x;
-	return num;
-
-}
-
 int fetch(void) {
 
 	fprintf(stderr,"memory: 0x%x\n",pc);
@@ -156,7 +159,8 @@ int fetch(void) {
 	} else {
 		fprintf(stderr, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
 		reset++;
-		if (reset > RESET_THRESHOLD) {
+		if (RESET_THRESHOLD && reset > RESET_THRESHOLD) {
+			fprintf(stderr, "Threshold reached, exiting process\n");
 			running = false;
 		}
 		pc = INIT_MEM;
@@ -169,16 +173,16 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	fprintf(stderr,"inst: %x ",inst);
 	switch (inst) {
+		case 0xE0:
+			SDL_RenderClear(rend);
+			SDL_RenderPresent(rend);
+			break;
+		case 0xEE:
+			pc = pop();
+			break;
 		default:
 			int firstnibble = mask(inst, 1);
 			switch (firstnibble) {
-				default:
-					if (inst) {
-						fprintf(stderr,"Unknown instruction %x\n",inst);
-					} else {
-						fprintf(stderr,"Maybe uninitialized memory: %x\n",inst);
-					}
-					break;
 				case 2: //so it falls through to case 1
 					push(pc);
 				case 1:
@@ -248,69 +252,71 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						pc++;
 					}
 					break;
-				case 10:
+				case 0xA:
 					indexreg = inst & 0x0FFF;
 					break;
-				case 11:
+				case 0xB:
 					if (BXNN) {
 						pc = (inst & 0x0FFF) + registers[mask(inst,2)];
 					} else {
 						pc = (inst & 0x0FFF) + registers[0];
 					}
 					break;
-				case 12:
+				case 0xC:
 					registers[mask(inst,2)] = (inst & 0xFF) && (rand());		
 					break;
-				case 13:
-					printf("Display\n");
+				case 0xD: //screen drawing
+					int n = mask(inst, 4);
+					bool delta = false;
+					registers[0xF] = 0;
 					uint8_t x = registers[mask(inst,2)] % ORIG_WIDTH;
 					uint8_t y = registers[mask(inst,3)] % ORIG_HEIGHT;
-					registers[0xF] = 0;
-					int n = mask(inst, 4);
-
 					for (int iter = 0; iter < n; iter++) {
 						uint8_t row = memory[indexreg + iter];
-						while (row > 0) {
-							int bit = row % 2;
+						do {
+							bool bit = (bool) (row % 2);
 							bool pixelVal = getPixelVal(x,y);
-							if (bit == pixelVal && bit) {
+							if (bit && pixelVal == bit) {
 								registers[0xF] = 1;
 								setPixel(x,y,false);
+								delta = true;
 							} else if (bit && !pixelVal) {
 								setPixel(x,y,true);
+								delta = true;
 							}
 							x++;
-							if (x > ORIG_WIDTH) {
+							if (x >= ORIG_WIDTH) {
 								x = 0;
 								break;
 							}
 							row = row / 2;
-
-						}
+						} while (row > 0);
 						y++;
-						if (y > ORIG_HEIGHT) {
+						if (y >= ORIG_HEIGHT) {
+							y = 0;
 							break;
 						}
 					}
-					SDL_Rect rect;
-					SDL_RenderClear(rend);	
-					SDL_UpdateTexture(tex, NULL, pixels, ORIG_WIDTH * sizeof(uint16_t));
-					rect.w = WIDTH;
-					rect.h = HEIGHT;
-					SDL_RenderCopyEx(rend, tex, NULL, &rect, 0, NULL, SDL_FLIP_NONE);
-					SDL_RenderPresent(rend);
+					if (delta) {
+						SDL_RenderClear(rend);
+						SDL_Rect rect;
+						rect.w = WIDTH;
+						rect.h = HEIGHT;
+						SDL_UpdateTexture(tex, &rect, pixels, ORIG_WIDTH * sizeof(uint16_t));
+						SDL_RenderCopy(rend, tex, NULL, &rect);
+						SDL_RenderPresent(rend);
+					}
+					break;
+				default:
+					if (inst) {
+						fprintf(stderr,"Unknown instruction, maybe data: %x\n",inst);
+					} else {
+						fprintf(stderr,"Memory is zero/0\n");
+					}
+					pc++;
 					break;
 			}
 			break;
-		case 0xE0:
-			printf("\033c");
-			printf("Display func for clear screen\n");
-			SDL_RenderClear(rend);
-			break;
-		case 0xEE:
-			pc = pop();
-			break;
-	
 	}
 
 }
