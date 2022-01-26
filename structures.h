@@ -158,6 +158,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 	fprintf(stderr,"inst: %x ",inst);
 	switch (inst) {
 		case 0xE0:
+			memset(pixels, 0, ORIG_WIDTH*ORIG_HEIGHT - 1);
 			SDL_RenderClear(rend);
 			SDL_RenderPresent(rend);
 			break;
@@ -267,9 +268,9 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 				case 0xD: //screen drawing
 					bool hasScreenChanged = false;
 					registers[0xF] = 0;
-					int x = registers[X] % ORIG_WIDTH;
 					int y = registers[Y] % ORIG_HEIGHT;
 					for (int iter = 0; iter < N; iter++) {
+						int x = registers[X] % ORIG_WIDTH;
 						uint8_t row = (memory[indexreg + iter]);
 						do {
 							bool bit = (bool) (row % 2);
@@ -278,7 +279,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							if (newVal != pixelVal) {
 								hasScreenChanged = true;
 							}
-							registers[0xF] = (!(newVal) ? 1 : 0);
+							registers[0xF] = (uint8_t) !(newVal);
 							setPixel(x,y,newVal);
 							x++;
 							if (x > ORIG_WIDTH) {
