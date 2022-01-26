@@ -16,10 +16,32 @@ I am interested in learning more about computers, and emulation seemed like an i
 
 - This [excellent writeup](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/) of CHIP-8 gives a lot of information regarding how to build the emulator, and explains the major opcodes as well without any code.
 
+## Requirements
+
+Make sure you have the following in order to both build and run the emulator on your system:
+
+```
+gcc, make, SDL2
+```
+
+These packages vary by Linux distro, so here are the common ones:
+
+- Fedora:
+
+```
+SDL2 SDL2-devel
+```
+
+- Ubuntu:
+
+```
+libsdl2 libsdl2-dev
+```
+
 ## Installation
 
-To be written
+Clone this repo, ```cd``` into it and run ```make```. You'll get a ```vm``` executable which you can execute.
 
 ## Usage
 
-To be written
+Right now, it just looks for ```ibm.ch8``` and runs it. More work will be done on this at a later stage.
