@@ -3,7 +3,7 @@
 
 //macros to make life easier
 
-#define getPixelAddr(x, y) (ORIG_HEIGHT*y + x)
+#define getPixelAddr(x, y) (x + ORIG_WIDTH*y)
 #define getPixelRow(x,y) (pixels[getPixelAddr(x,y)])
 #define getPixelVal(x,y) ((getPixelRow(x,y) ? true : false))
 

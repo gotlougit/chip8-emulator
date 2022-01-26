@@ -1,0 +1,4373 @@
+Loaded memory address 200, value is 0
+Loaded memory address 201, value is e0
+Loaded memory address 202, value is a2
+Loaded memory address 203, value is 2a
+Loaded memory address 204, value is 60
+Loaded memory address 205, value is c
+Loaded memory address 206, value is 61
+Loaded memory address 207, value is 8
+Loaded memory address 208, value is d0
+Loaded memory address 209, value is 1f
+Loaded memory address 20a, value is 70
+Loaded memory address 20b, value is 9
+Loaded memory address 20c, value is a2
+Loaded memory address 20d, value is 39
+Loaded memory address 20e, value is d0
+Loaded memory address 20f, value is 1f
+Loaded memory address 210, value is a2
+Loaded memory address 211, value is 48
+Loaded memory address 212, value is 70
+Loaded memory address 213, value is 8
+Loaded memory address 214, value is d0
+Loaded memory address 215, value is 1f
+Loaded memory address 216, value is 70
+Loaded memory address 217, value is 4
+Loaded memory address 218, value is a2
+Loaded memory address 219, value is 57
+Loaded memory address 21a, value is d0
+Loaded memory address 21b, value is 1f
+Loaded memory address 21c, value is 70
+Loaded memory address 21d, value is 8
+Loaded memory address 21e, value is a2
+Loaded memory address 21f, value is 66
+Loaded memory address 220, value is d0
+Loaded memory address 221, value is 1f
+Loaded memory address 222, value is 70
+Loaded memory address 223, value is 8
+Loaded memory address 224, value is a2
+Loaded memory address 225, value is 75
+Loaded memory address 226, value is d0
+Loaded memory address 227, value is 1f
+Loaded memory address 228, value is 12
+Loaded memory address 229, value is 28
+Loaded memory address 22a, value is ff
+Loaded memory address 22b, value is 0
+Loaded memory address 22c, value is ff
+Loaded memory address 22d, value is 0
+Loaded memory address 22e, value is 3c
+Loaded memory address 22f, value is 0
+Loaded memory address 230, value is 3c
+Loaded memory address 231, value is 0
+Loaded memory address 232, value is 3c
+Loaded memory address 233, value is 0
+Loaded memory address 234, value is 3c
+Loaded memory address 235, value is 0
+Loaded memory address 236, value is ff
+Loaded memory address 237, value is 0
+Loaded memory address 238, value is ff
+Loaded memory address 239, value is ff
+Loaded memory address 23a, value is 0
+Loaded memory address 23b, value is ff
+Loaded memory address 23c, value is 0
+Loaded memory address 23d, value is 38
+Loaded memory address 23e, value is 0
+Loaded memory address 23f, value is 3f
+Loaded memory address 240, value is 0
+Loaded memory address 241, value is 3f
+Loaded memory address 242, value is 0
+Loaded memory address 243, value is 38
+Loaded memory address 244, value is 0
+Loaded memory address 245, value is ff
+Loaded memory address 246, value is 0
+Loaded memory address 247, value is ff
+Loaded memory address 248, value is 80
+Loaded memory address 249, value is 0
+Loaded memory address 24a, value is e0
+Loaded memory address 24b, value is 0
+Loaded memory address 24c, value is e0
+Loaded memory address 24d, value is 0
+Loaded memory address 24e, value is 80
+Loaded memory address 24f, value is 0
+Loaded memory address 250, value is 80
+Loaded memory address 251, value is 0
+Loaded memory address 252, value is e0
+Loaded memory address 253, value is 0
+Loaded memory address 254, value is e0
+Loaded memory address 255, value is 0
+Loaded memory address 256, value is 80
+Loaded memory address 257, value is f8
+Loaded memory address 258, value is 0
+Loaded memory address 259, value is fc
+Loaded memory address 25a, value is 0
+Loaded memory address 25b, value is 3e
+Loaded memory address 25c, value is 0
+Loaded memory address 25d, value is 3f
+Loaded memory address 25e, value is 0
+Loaded memory address 25f, value is 3b
+Loaded memory address 260, value is 0
+Loaded memory address 261, value is 39
+Loaded memory address 262, value is 0
+Loaded memory address 263, value is f8
+Loaded memory address 264, value is 0
+Loaded memory address 265, value is f8
+Loaded memory address 266, value is 3
+Loaded memory address 267, value is 0
+Loaded memory address 268, value is 7
+Loaded memory address 269, value is 0
+Loaded memory address 26a, value is f
+Loaded memory address 26b, value is 0
+Loaded memory address 26c, value is bf
+Loaded memory address 26d, value is 0
+Loaded memory address 26e, value is fb
+Loaded memory address 26f, value is 0
+Loaded memory address 270, value is f3
+Loaded memory address 271, value is 0
+Loaded memory address 272, value is e3
+Loaded memory address 273, value is 0
+Loaded memory address 274, value is 43
+Loaded memory address 275, value is e0
+Loaded memory address 276, value is 0
+Loaded memory address 277, value is e0
+Loaded memory address 278, value is 0
+Loaded memory address 279, value is 80
+Loaded memory address 27a, value is 0
+Loaded memory address 27b, value is 80
+Loaded memory address 27c, value is 0
+Loaded memory address 27d, value is 80
+Loaded memory address 27e, value is 0
+Loaded memory address 27f, value is 80
+Loaded memory address 280, value is 0
+Loaded memory address 281, value is e0
+Loaded memory address 282, value is 0
+Loaded memory address 283, value is e0
+Delay timer: 99, Sound timer: 99
+memory: 0x200
+inst: e0 memory: 0x202
+inst: a22a a 2 2 a, nn = 2a, nnn = 22a
+indexreg set to: 22a
+memory: 0x204
+inst: 600c 6 0 0 c, nn = c, nnn = c
+memory: 0x206
+inst: 6108 6 1 0 8, nn = 8, nnn = 108
+memory: 0x208
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x20a
+inst: 7009 7 0 0 9, nn = 9, nnn = 9
+memory: 0x20c
+inst: a239 a 2 3 9, nn = 39, nnn = 239
+indexreg set to: 239
+memory: 0x20e
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x210
+inst: a248 a 2 4 8, nn = 48, nnn = 248
+indexreg set to: 248
+memory: 0x212
+inst: 7008 7 0 0 8, nn = 8, nnn = 8
+memory: 0x214
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x216
+inst: 7004 7 0 0 4, nn = 4, nnn = 4
+memory: 0x218
+inst: a257 a 2 5 7, nn = 57, nnn = 257
+indexreg set to: 257
+memory: 0x21a
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x21c
+inst: 7008 7 0 0 8, nn = 8, nnn = 8
+memory: 0x21e
+inst: a266 a 2 6 6, nn = 66, nnn = 266
+indexreg set to: 266
+memory: 0x220
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x222
+inst: 7008 7 0 0 8, nn = 8, nnn = 8
+memory: 0x224
+inst: a275 a 2 7 5, nn = 75, nnn = 275
+indexreg set to: 275
+memory: 0x226
+inst: d01f d 0 1 f, nn = 1f, nnn = 1f
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 98, Sound timer: 98
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 97, Sound timer: 97
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 96, Sound timer: 96
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 95, Sound timer: 95
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 94, Sound timer: 94
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 93, Sound timer: 93
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 92, Sound timer: 92
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 91, Sound timer: 91
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 90, Sound timer: 90
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 89, Sound timer: 89
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 88, Sound timer: 88
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 87, Sound timer: 87
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 86, Sound timer: 86
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 85, Sound timer: 85
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 84, Sound timer: 84
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 83, Sound timer: 83
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 82, Sound timer: 82
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 81, Sound timer: 81
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 80, Sound timer: 80
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 79, Sound timer: 79
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 78, Sound timer: 78
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 77, Sound timer: 77
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 76, Sound timer: 76
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 75, Sound timer: 75
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 74, Sound timer: 74
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 73, Sound timer: 73
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 72, Sound timer: 72
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 71, Sound timer: 71
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 70, Sound timer: 70
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 69, Sound timer: 69
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 68, Sound timer: 68
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 67, Sound timer: 67
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 66, Sound timer: 66
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 65, Sound timer: 65
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+Delay timer: 64, Sound timer: 64
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228
+memory: 0x228
+inst: 1228 1 2 2 8, nn = 28, nnn = 228

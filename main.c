@@ -10,7 +10,7 @@ int main(void) {
 	SDL_Renderer *rend = SDL_CreateRenderer(win, -1, RENDFLAGS);
 	SDL_RenderSetLogicalSize(rend, WIDTH, HEIGHT);
 	SDL_Texture *tex = SDL_CreateTexture(rend, SDL_PIXELFORMAT_RGB565, SDL_TEXTUREACCESS_STATIC, ORIG_WIDTH, ORIG_HEIGHT);
-	memset(pixels, 0, ORIG_WIDTH*ORIG_HEIGHT - 1);
+	memset(pixels, 0, ORIG_PIXEL_COUNT - 1);
 	
 	initmemory();
 	loadROM("ibm.ch8");

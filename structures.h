@@ -273,7 +273,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							if (newVal != pixelVal) {
 								hasScreenChanged = true;
 							}
-							registers[0xF] = (uint8_t) !(newVal);
+							registers[0xF] = (!(newVal) && pixelVal);
 							setPixel(x,y,newVal);
 							x++;
 							if (x > ORIG_WIDTH) {
