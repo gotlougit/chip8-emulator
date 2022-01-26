@@ -3,6 +3,15 @@
 #include <stdint.h>
 #include "display.h"
 
+//implemented as macros to clean up code
+
+#define getOPCODE(inst) (inst / 0x1000)
+#define getX(inst) ((inst / 0x100) % 0x10)
+#define getY(inst) ((inst / 0x10) % 0x10)
+#define getN(inst) (inst % 0x10)
+#define getNN(inst) ((0x10*getY(inst)) + getN(inst))
+#define getNNN(inst) ((0x100*getX(inst)) + getNN(inst))
+
 int ipc = 0;
 int reset = 0;
 
@@ -38,21 +47,6 @@ uint8_t font[80] = {
 		0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
 		0xF0, 0x80, 0xF0, 0x80, 0x80  // F
 };
-
-/*
-int mask(uint8_t num, int digit) {
-
-	printf("num: %x",num);
-	int x = (num & (0xF * (int) pow(16,4 - digit))) / ((int) pow(16,4 - digit));
-	int y = ((num << (4-digit)) % 0x10);
-	printf("x: %x, y: %x\n");
-	if (x == y) {
-		printf("MASK EQUAL!!!");
-	}
-	return x;
-	return ((num & (0xF * (int) pow(16,2 - digit))) / ((int) pow(16,2 - digit)));
-}
-*/
 
 uint8_t reverseNum(uint8_t num) {
 
@@ -158,7 +152,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 	fprintf(stderr,"inst: %x ",inst);
 	switch (inst) {
 		case 0xE0:
-			memset(pixels, 0, ORIG_WIDTH*ORIG_HEIGHT - 1);
+			memset(pixels, 0, ORIG_PIXEL_COUNT - 1);
 			SDL_RenderClear(rend);
 			SDL_RenderPresent(rend);
 			break;
@@ -168,12 +162,12 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			break;
 		*/
 		default:
-			int OPCODE = inst / 0x1000;
-			int X = (inst / 0x100) % 0x10;
-			int Y = (inst / 0x10) % 0x10;
-			int N = inst % 0x10;
-			int NN = (0x10*Y) + N;
-			int NNN = (0x100*X) + NN;
+			int OPCODE = getOPCODE(inst);
+			int X = getX(inst);
+			int Y = getY(inst);
+			int N = getN(inst);
+			int NN = getNN(inst);
+			int NNN = getNNN(inst);
 			switch (OPCODE) {
 				/*
 				case 2: //so it falls through to case 1
@@ -272,7 +266,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					for (int iter = 0; iter < N; iter++) {
 						int x = registers[X] % ORIG_WIDTH;
 						uint8_t row = (memory[indexreg + iter]);
-						do {
+						while (row > 0) {
 							bool bit = (bool) (row % 2);
 							bool pixelVal = getPixelVal(x,y);
 							bool newVal = bit ^ pixelVal;
@@ -287,7 +281,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 								break;
 							}
 							row = row / 2;
-						} while (row > 0);
+						}
 						y++;
 						if (y > ORIG_HEIGHT) {
 							y = 0;
