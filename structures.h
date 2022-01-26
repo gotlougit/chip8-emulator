@@ -265,7 +265,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					int y = registers[Y] % ORIG_HEIGHT;
 					for (int iter = 0; iter < N; iter++) {
 						int x = registers[X] % ORIG_WIDTH;
-						uint8_t row = (memory[indexreg + iter]);
+						uint8_t row = reverseNum(memory[indexreg + iter]);
 						while (row > 0) {
 							bool bit = (bool) (row % 2);
 							bool pixelVal = getPixelVal(x,y);
