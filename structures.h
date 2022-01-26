@@ -77,6 +77,7 @@ void loadROM(char *loc) {
 		int i = 0, c;
 		while ((c = fgetc(fp)) != EOF) {
 			memory[INIT_MEM + i] = c;
+			fprintf(stderr, "Loaded memory address %x, value is %x\n",INIT_MEM + i, c);
 			i++;
 		}
 	}
@@ -137,9 +138,8 @@ int pop(void) {
 int fetch(void) {
 
 	fprintf(stderr,"memory: 0x%x\n",pc);
-	pc+=2;
 	if (pc <= MEM_SIZE) {
-		return memory[pc-2];
+		return (0x100 * memory[pc]) + memory[pc+1];
 	} else {
 		fprintf(stderr, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
 		reset++;
@@ -148,7 +148,7 @@ int fetch(void) {
 			running = false;
 		}
 		pc = INIT_MEM;
-		return memory[INIT_MEM];
+		fetch();
 	}
 	
 }
@@ -167,15 +167,19 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			break;
 		*/
 		default:
-			int firstnibble = inst / 0x10;
-			switch (firstnibble) {
+			int OPCODE = inst / 0x1000;
+			int X = (inst / 0x100) % 0x10;
+			int Y = (inst / 0x10) % 0x10;
+			int N = inst % 0x10;
+			int NN = (0x10*Y) + N;
+			int NNN = (0x100*X) + NN;
+			switch (OPCODE) {
 				/*
 				case 2: //so it falls through to case 1
 					push(pc);
 				*/
 				case 1:
-					pc = ((inst % 0x10) * (int) pow(16,2)) + memory[pc+1];
-					pc-=2;
+					pc = NNN - 2;
 					break;
 				/*
 				case 3:
@@ -195,10 +199,10 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					break;
 				*/
 				case 6:
-					registers[inst % 0x10] = memory[pc+1];
+					registers[X] = NN;
 					break;
 				case 7:
-					registers[inst % 0x10] += memory[pc+1];
+					registers[X] += NN;
 					break;
 				/*
 				case 8:
@@ -245,7 +249,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					break;
 				*/
 				case 0xA:
-					indexreg = ((inst % 0x10) * (int) pow(16,2)) + memory[pc+1];
+					indexreg = NNN;
 					fprintf(stderr, "indexreg set to: %x\n", indexreg);
 					break;
 				/*
@@ -261,25 +265,21 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					break;
 				*/
 				case 0xD: //screen drawing
-					bool delta = false;
-					int n = memory[pc+1] % 0x10;
+					bool hasScreenChanged = false;
 					registers[0xF] = 0;
-					int x = registers[inst % 0x10] % ORIG_WIDTH;
-					int y = registers[memory[pc+1] / 0x10] % ORIG_HEIGHT;
-					for (int iter = 0; iter < n; iter++) {
-						uint8_t row = reverseNum(memory[indexreg + iter]);
+					int x = registers[X] % ORIG_WIDTH;
+					int y = registers[Y] % ORIG_HEIGHT;
+					for (int iter = 0; iter < N; iter++) {
+						uint8_t row = (memory[indexreg + iter]);
 						do {
 							bool bit = (bool) (row % 2);
 							bool pixelVal = getPixelVal(x,y);
-							if (bit && pixelVal == bit) {
-								registers[0xF] = 1;
-								setPixel(x,y,false);
-								delta = true;
+							bool newVal = bit ^ pixelVal;
+							if (newVal != pixelVal) {
+								hasScreenChanged = true;
 							}
-							else if (bit && !pixelVal) {
-								delta = true;
-								setPixel(x,y,true);
-							}
+							registers[0xF] = (!(newVal) ? 1 : 0);
+							setPixel(x,y,newVal);
 							x++;
 							if (x > ORIG_WIDTH) {
 								x = 0;
@@ -293,24 +293,23 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							break;
 						}
 					}
-					if (delta) { //only redraw if screen changes
+					if (hasScreenChanged) { //only redraw if screen changes
 						SDL_RenderClear(rend);
 						SDL_UpdateTexture(tex, NULL, pixels, ORIG_WIDTH * sizeof(uint16_t));
-						SDL_Rect rect = {0, 0, WIDTH, HEIGHT};
-						SDL_RenderCopy(rend, tex, NULL, &rect);
+						SDL_RenderCopy(rend, tex, NULL, NULL);
 						SDL_RenderPresent(rend);
 					}
 					break;
-				default:
+				default: //means this is unknown
 					if (inst) {
 						fprintf(stderr,"Unknown instruction, maybe data: %x\n",inst);
 					} else {
 						fprintf(stderr,"Memory is zero/0\n");
 					}
-					pc+=2;
 					break;
 			}
 			break;
-	}
 
+	}
+	pc+=2;
 }
