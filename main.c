@@ -1,7 +1,7 @@
 #include <time.h>
 #include "structures.h"
 
-void main(void) {
+int main(void) {
 
 	srand(time(NULL));
 	SDL_Init(SDL_INIT_EVERYTHING);
@@ -13,8 +13,7 @@ void main(void) {
 	initmemory();
 	memset(pixels, 0, ORIG_WIDTH*ORIG_HEIGHT - 1);
 
-	int *out = returnROM("ibm.ch8");
-	loadROM(out);
+	loadROM("ibm.ch8");
 	while (running) {
 		time_t beginningTime = time(NULL);
 		for (;ipc < INST_PER_SEC; ipc++) {
@@ -32,5 +31,5 @@ void main(void) {
 	SDL_DestroyRenderer(rend);
 	SDL_DestroyWindow(win);
 	SDL_Quit();
-
+	return 0;
 }
