@@ -15,8 +15,8 @@ int stacklast = -1;
 uint16_t stack[STACK_SIZE];
 
 uint16_t indexreg = INIT_MEM;
-uint16_t memory[MEM_SIZE];
 uint16_t pc = INIT_MEM;
+uint8_t memory[MEM_SIZE];
 
 bool running = true;
 
@@ -37,11 +37,11 @@ uint8_t font[80] = {
 		0xE0, 0x90, 0x90, 0x90, 0xE0, // D
 		0xF0, 0x80, 0xF0, 0x80, 0xF0, // E
 		0xF0, 0x80, 0xF0, 0x80, 0x80  // F
-	};
+};
 
-int mask(uint16_t num, int digit) {
+/*
+int mask(uint8_t num, int digit) {
 
-	/*
 	printf("num: %x",num);
 	int x = (num & (0xF * (int) pow(16,4 - digit))) / ((int) pow(16,4 - digit));
 	int y = ((num << (4-digit)) % 0x10);
@@ -50,9 +50,9 @@ int mask(uint16_t num, int digit) {
 		printf("MASK EQUAL!!!");
 	}
 	return x;
-	*/
-	return (num & (0xF * (int) pow(16,4 - digit))) / ((int) pow(16,4 - digit));
+	return ((num & (0xF * (int) pow(16,2 - digit))) / ((int) pow(16,2 - digit)));
 }
+*/
 
 int * returnROM(char *loc) {
 	
@@ -66,12 +66,10 @@ int * returnROM(char *loc) {
 		int size = ftell(fp);
 		rewind(fp);
 		int *out = malloc(size*sizeof(int)+1);
-		out[0] = size/2;
+		out[0] = size;
 		int i = 1;
 		while ((c = fgetc(fp)) != EOF) {
-			out[i] = c * pow(16,2);
-			c = fgetc(fp);
-			out[i] += c;
+			out[i] = c;
 			i++;
 		}
 		fclose(fp);
@@ -87,8 +85,8 @@ int * returnROM(char *loc) {
 void loadROM(int *rom) {
 	
 	for (int i = 1; i < rom[0]; i++) {
-		memory[INIT_MEM + i - 1] = rom[i];
-		fprintf(stderr,"Loaded, memory loc %x value is %04x\n",INIT_MEM+i-1,memory[INIT_MEM+i-1]);
+		memory[INIT_MEM + i - 1] = (uint8_t) rom[i];
+		fprintf(stderr,"Loaded, memory loc %x value is %02x\n",INIT_MEM+i-1,memory[INIT_MEM+i-1]);
 	}
 	free(rom);
 
@@ -153,9 +151,9 @@ int pop(void) {
 int fetch(void) {
 
 	fprintf(stderr,"memory: 0x%x\n",pc);
-	pc+=1;
+	pc+=2;
 	if (pc <= MEM_SIZE) {
-		return memory[pc-1];
+		return memory[pc-2];
 	} else {
 		fprintf(stderr, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
 		reset++;
@@ -181,17 +179,18 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			pc = pop();
 			break;
 		default:
-			int firstnibble = mask(inst, 1);
+			int firstnibble = inst / 0x10;
 			switch (firstnibble) {
 				case 2: //so it falls through to case 1
 					push(pc);
 				case 1:
-					pc = inst & 0x0FFF;
-					pc-=1;
+					pc = ((inst % 0x10) * (int) pow(16,3)) + memory[pc+1];
+					pc-=2;
 					break;
+				/*
 				case 3:
 					if (registers[mask(inst, 2)] == (inst & 0x00FF)) {
-						pc++;
+						pc+=2;
 					}
 					break;
 				case 4:
@@ -204,12 +203,14 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						pc++;
 					}
 					break;
+				*/
 				case 6:
-					registers[mask(inst,2)] = inst & 0x00FF;
+					registers[inst % 0x10] = memory[pc+1];
 					break;
 				case 7:
-					registers[mask(inst,2)] += inst & 0x00FF;
+					registers[inst % 0x10] += memory[pc+1];
 					break;
+				/*
 				case 8:
 					switch (inst & 0x000F) {
 						case 0: //set equal to
@@ -252,9 +253,12 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						pc++;
 					}
 					break;
+				*/
 				case 0xA:
-					indexreg = inst & 0x0FFF;
+					indexreg = ((inst % 0x10) * (int) pow(16,2)) + memory[pc+1];
+					fprintf(stderr, "indexreg set to: %x\n", indexreg);
 					break;
+				/*
 				case 0xB:
 					if (BXNN) {
 						pc = (inst & 0x0FFF) + registers[mask(inst,2)];
@@ -265,12 +269,13 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 				case 0xC:
 					registers[mask(inst,2)] = (inst & 0xFF) && (rand());		
 					break;
+				*/
 				case 0xD: //screen drawing
-					int n = mask(inst, 4);
 					bool delta = false;
+					int n = memory[pc+1] % 0x10;
 					registers[0xF] = 0;
-					uint8_t x = registers[mask(inst,2)] % ORIG_WIDTH;
-					uint8_t y = registers[mask(inst,3)] % ORIG_HEIGHT;
+					uint8_t x = registers[inst % 0x10] % ORIG_WIDTH;
+					uint8_t y = registers[memory[pc+1] / 0x10] % ORIG_HEIGHT;
 					for (int iter = 0; iter < n; iter++) {
 						uint8_t row = memory[indexreg + iter];
 						do {
@@ -281,8 +286,8 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 								setPixel(x,y,false);
 								delta = true;
 							} else if (bit && !pixelVal) {
-								setPixel(x,y,true);
 								delta = true;
+								setPixel(x,y,true);
 							}
 							x++;
 							if (x >= ORIG_WIDTH) {
@@ -297,12 +302,13 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							break;
 						}
 					}
-					if (delta) {
+					if (delta) { //only redraw if screen changes
 						SDL_RenderClear(rend);
+						SDL_UpdateTexture(tex, NULL, pixels, ORIG_WIDTH * sizeof(uint16_t));
 						SDL_Rect rect;
+						SDL_QueryTexture(tex, NULL, NULL, &rect.w, &rect.h);
 						rect.w = WIDTH;
 						rect.h = HEIGHT;
-						SDL_UpdateTexture(tex, &rect, pixels, ORIG_WIDTH * sizeof(uint16_t));
 						SDL_RenderCopy(rend, tex, NULL, &rect);
 						SDL_RenderPresent(rend);
 					}
@@ -313,7 +319,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					} else {
 						fprintf(stderr,"Memory is zero/0\n");
 					}
-					pc++;
+					pc+=2;
 					break;
 			}
 			break;
