@@ -9,8 +9,8 @@
 #define getX(inst) ((inst / 0x100) % 0x10)
 #define getY(inst) ((inst / 0x10) % 0x10)
 #define getN(inst) (inst % 0x10)
-#define getNN(inst) ((0x10*getY(inst)) + getN(inst))
-#define getNNN(inst) ((0x100*getX(inst)) + getNN(inst))
+#define getNN(inst,N) ((0x10*getY(inst)) + N)
+#define getNNN(inst,NN) ((0x100*getX(inst)) + NN)
 
 int ipc = 0;
 int reset = 0;
@@ -166,8 +166,8 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			int X = getX(inst);
 			int Y = getY(inst);
 			int N = getN(inst);
-			int NN = getNN(inst);
-			int NNN = getNNN(inst);
+			int NN = getNN(inst,N);
+			int NNN = getNNN(inst,NN);
 			switch (OPCODE) {
 				/*
 				case 2: //so it falls through to case 1
