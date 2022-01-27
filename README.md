@@ -45,3 +45,7 @@ Clone this repo, ```cd``` into it and run ```make```. You'll get a ```vm``` exec
 ## Usage
 
 Right now, it just looks for ```ibm.ch8``` and runs it. More work will be done on this at a later stage.
+
+## Status
+
+The emulator runs the test IBM ROM as of now, and the groundwork for most of the other instructions has already been laid.
