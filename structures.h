@@ -142,7 +142,7 @@ int fetch(void) {
 	
 }
 
-void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
+void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	fprintf(LOGFILE,"inst: %x ",inst);
 
@@ -162,29 +162,29 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			int N = getN(inst);
 			int NN = getNN(inst,N);
 			int NNN = getNNN(inst,NN);
+
 			switch (OPCODE) {
 				case 2: //so it falls through to case 1
 					push(pc);
-				case 1:
+				case 1: //jump
 					pc = NNN - 2;
 					break;
-				case 3:
+				case 3: //skip if equal
 					pc = (registers[X] == NN) ? (pc + 2) : pc;
 					break;
-				case 4:
+				case 4: //skip if not equal
 					pc = (registers[X] != NN) ? (pc + 2) : pc;
 					break;
-				case 5:
+				case 5: //skip if equal
 					pc = (registers[X] == registers[Y]) ? (pc + 1) : pc;
 					break;
-				case 6:
+				case 6: //set
 					registers[X] = NN;
 					break;
-				case 7:
+				case 7: //add
 					registers[X] += NN;
 					break;
 				case 8:
-					printf("hello");
 					switch (N) {
 						case 0: //set equal to
 							registers[X] = registers[Y];
@@ -228,19 +228,18 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							break;
 
 					}
-					printf("world");
 					break;
-				case 9:
+				case 9: //skip if not equal
 					pc = (registers[X] != registers[Y]) ? (pc+1) : pc;
 					break;
-				case 0xA:
+				case 0xA: //set indexreg
 					indexreg = NNN;
 					fprintf(LOGFILE, "indexreg set to: %x\n", indexreg);
 					break;
-				case 0xB:
+				case 0xB: //jump with offset
 					pc = (BXNN) ? (NNN + registers[X]) : (NNN + registers[0]);
 					break;
-				case 0xC:
+				case 0xC: //RNG
 					registers[X] = (NN) && (rand());		
 					break;
 				case 0xD: //screen drawing
@@ -290,7 +289,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							pc = (registers[X] != keyPressed) ? (pc + 2) : pc;
 							break;
 						default:
-							isUnknownInst(inst);
+							isUnknownInst(inst); //unknown instruction
 							break;
 					}
 					break;
@@ -299,13 +298,15 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						case 7:
 							registers[X] = delayTimer;
 							break;
+						//input related
 						case 0xA:
 							inputResult inputR = getInput();
 							running = inputR.running;
 							keyPressed = inputR.value;
 							pc = (keyPressed == -1) ? (pc - 2) : pc;
-							registers[X] = (keyPressed > -1) ? (keyPressed) : registers[X];
+							registers[X] = (keyPressed != oldKeyPressed) ? (keyPressed) : registers[X];
 							break;
+						//timer related
 						case 0xF:
 							delayTimer = registers[X];	
 							break;
@@ -318,11 +319,13 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						case 0x29:
 							indexreg = registers[X];
 							break;
+						//convert to decimal
 						case 0x33:
 							memory[indexreg] = registers[X] % 10;
 							memory[indexreg+1] = (registers[X] / 10) % 10;		
 							memory[indexreg+2] = (registers[X] / 100);		
 							break;
+						//memory load and store
 						case 0x55:
 							for (int iter = 0; iter <= X; iter++) {
 								if (FX55_FX65_INCREMENT) {
