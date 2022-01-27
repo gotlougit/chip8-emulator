@@ -53,3 +53,5 @@ To run a specific ROM, run
 ## Status
 
 The emulator runs the test IBM ROM as of now, and the groundwork for most of the other instructions has already been laid.
+
+Input and audio are being worked on, but other than that, the rest of the emulator seems to work, but more testing is required to verify this.
