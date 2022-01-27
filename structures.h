@@ -190,13 +190,17 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						case 2: //bitwise AND
 							registers[X] = registers[X] & registers[Y];
 							break;
-						case 3: //logical OR
-							registers[X] = registers[X] || registers[Y];
+						case 3: //logical XOR
+							registers[X] = registers[X] ^ registers[Y];
 							break;
 						case 4: //add
 							int sum = registers[X] + registers[Y];
 							registers[0xF] = (sum > 0xFF)?1:0;
 							registers[X] = sum;
+							break;
+						case 5: //subtract y from x
+							registers[0xF] = (registers[X] > registers[Y]) ? 1 : 0;
+							registers[X] -= registers[Y];
 							break;
 						case 6: //shift right
 							if (EIGHTXY_VY) {
@@ -204,6 +208,10 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							}
 							registers[0xF] = getX(registers[X]);
 							registers[X] = registers[X] >> 1;
+							break;
+						case 7: //subtract x from y
+							registers[0xF] = (registers[Y] > registers[X]) ? 1 : 0;
+							registers[X] = registers[Y] - registers[X];
 							break;
 						case 0xE: //shift left
 							if (EIGHTXY_VY) {
@@ -272,6 +280,52 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						SDL_UpdateTexture(tex, NULL, pixels, ORIG_WIDTH * sizeof(uint16_t));
 						SDL_RenderCopy(rend, tex, NULL, NULL);
 						SDL_RenderPresent(rend);
+					}
+					break;
+				case 0xF:
+					switch (NN) {
+						case 7:
+							registers[X] = delayTimer;
+							break;
+						case 0xF:
+							delayTimer = registers[X];	
+							break;
+						case 0x18:
+							soundTimer = registers[X];
+							break;
+						case 0x1E:
+							indexreg += registers[X];
+							break;
+						case 0x29:
+							indexreg = registers[X];
+							break;
+						case 0x33:
+							memory[indexreg] = registers[X] % 10;
+							memory[indexreg+1] = (registers[X] / 10) % 10;		
+							memory[indexreg+2] = (registers[X] / 100);		
+							break;
+						case 0x55:
+							for (int iter = 0; iter <= X; iter++) {
+								if (FX55_FX65_INCREMENT) {
+									memory[indexreg] = registers[iter];
+									indexreg++;
+								} else {
+									memory[indexreg + iter] = registers[iter];
+								}
+							}
+							break;
+						case 0x65:
+							for (int iter = 0; iter <= X; iter++) {
+								if (FX55_FX65_INCREMENT) {
+									registers[iter] = memory[indexreg];
+									indexreg++;
+								} else {
+									registers[iter] = memory[indexreg + iter];
+								}
+							}
+							break;
+						default:
+							break;
 					}
 					break;
 				default: //means this is unknown

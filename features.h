@@ -3,6 +3,7 @@
 
 #define EIGHTXY_VY false
 #define BXNN false
+#define FX55_FX65_INCREMENT false
 
 #define STACK_SIZE 16
 #define REG_SIZE 16
