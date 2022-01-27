@@ -1,7 +1,12 @@
 #include <time.h>
 #include "structures.h"
 
-int main(void) {
+int main(int argc, char **argv) {
+
+	if (!(argv[1])) {
+		fprintf(LOGFILE, "Error! No ROM given to run!\n");
+		return 1;
+	}
 
 	srand(time(NULL));
 	SDL_Init(SDL_INIT_EVERYTHING);
@@ -13,7 +18,7 @@ int main(void) {
 	memset(pixels, 0, ORIG_PIXEL_COUNT - 1);
 	
 	initmemory();
-	loadROM("ibm.ch8");
+	loadROM(argv[1]);
 	
 	while (running) {
 		time_t beginningTime = time(NULL);

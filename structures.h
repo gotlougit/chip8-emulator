@@ -48,19 +48,6 @@ uint8_t font[80] = {
 		0xF0, 0x80, 0xF0, 0x80, 0x80  // F
 };
 
-uint8_t reverseNum(uint8_t num) {
-
-	uint8_t out = 0;
-	int iter = 7;
-	while (num > 0) {
-		out += (uint8_t) pow(2,iter) * (num % 2);
-		num = num / 2;
-		iter--;
-	}
-	return out;
-
-}
-
 void loadROM(char *loc) {
 	
 	FILE *fp;
@@ -71,7 +58,7 @@ void loadROM(char *loc) {
 		int i = 0, c;
 		while ((c = fgetc(fp)) != EOF) {
 			memory[INIT_MEM + i] = c;
-			fprintf(stderr, "Loaded memory address %x, value is %x\n",INIT_MEM + i, c);
+			fprintf(LOGFILE, "Loaded memory address %x, value is %x\n",INIT_MEM + i, c);
 			i++;
 		}
 	}
@@ -100,11 +87,10 @@ void updateTimers(void) {
 		soundTimer--;
 	}
 
-	fprintf(stderr, "Delay timer: %d, Sound timer: %d\n",delayTimer,soundTimer);
+	fprintf(LOGFILE, "Delay timer: %d, Sound timer: %d\n",delayTimer,soundTimer);
 
 }
 
-/*
 int push(int value) {
 	
 	if (stacklast + 1 < STACK_SIZE ) {
@@ -127,18 +113,17 @@ int pop(void) {
 	return stack[stacklast+1];
 
 }
-*/
 
 int fetch(void) {
 
-	fprintf(stderr,"memory: 0x%x\n",pc);
+	fprintf(LOGFILE,"memory: 0x%x\n",pc);
 	if (pc <= MEM_SIZE) {
 		return (0x100 * memory[pc]) + memory[pc+1];
 	} else {
-		fprintf(stderr, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
+		fprintf(LOGFILE, "Tried to access out of bounds memory, setting back to %x\n", INIT_MEM);
 		reset++;
 		if (RESET_THRESHOLD && reset > RESET_THRESHOLD) {
-			fprintf(stderr, "Threshold reached, exiting process\n");
+			fprintf(LOGFILE, "Threshold reached, exiting process\n");
 			running = false;
 		}
 		pc = INIT_MEM;
@@ -149,18 +134,16 @@ int fetch(void) {
 
 void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
-	fprintf(stderr,"inst: %x ",inst);
+	fprintf(LOGFILE,"inst: %x ",inst);
 	switch (inst) {
 		case 0xE0:
 			memset(pixels, 0, ORIG_PIXEL_COUNT - 1);
 			SDL_RenderClear(rend);
 			SDL_RenderPresent(rend);
 			break;
-		/*
 		case 0xEE:
 			pc = pop();
 			break;
-		*/
 		default:
 			int OPCODE = getOPCODE(inst);
 			int X = getX(inst);
@@ -169,105 +152,102 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			int NN = getNN(inst,N);
 			int NNN = getNNN(inst,NN);
 			switch (OPCODE) {
-				/*
 				case 2: //so it falls through to case 1
 					push(pc);
-				*/
 				case 1:
 					pc = NNN - 2;
 					break;
-				/*
 				case 3:
-					if (registers[mask(inst, 2)] == (inst & 0x00FF)) {
+					if (registers[X] == (NN)) {
 						pc+=2;
 					}
 					break;
 				case 4:
-					if (registers[mask(inst, 2)] != (inst & 0x00FF)) {
+					if (registers[X] != (NN)) {
 						pc++;
 					}
 					break;
 				case 5:
-					if (registers[mask(inst,2)] == registers[mask(inst,3)]) {
+					if (registers[X] == registers[Y]) {
 						pc++;
 					}
 					break;
-				*/
 				case 6:
 					registers[X] = NN;
 					break;
 				case 7:
 					registers[X] += NN;
 					break;
-				/*
 				case 8:
-					switch (inst & 0x000F) {
+					printf("hello");
+					switch (N) {
 						case 0: //set equal to
-							registers[mask(inst,2)] = registers[mask(inst,3)];
+							registers[X] = registers[Y];
 							break;
 						case 1: //bitwise OR
-							registers[mask(inst,2)] = registers[mask(inst,2)] | registers[mask(inst,3)];
+							registers[X] = registers[X] | registers[Y];
 							break;
 						case 2: //bitwise AND
-							registers[mask(inst,2)] = registers[mask(inst,2)] & registers[mask(inst,3)];
+							registers[X] = registers[X] & registers[Y];
 							break;
 						case 3: //logical OR
-							registers[mask(inst,2)] = registers[mask(inst,2)] || registers[mask(inst,3)];
+							registers[X] = registers[X] || registers[Y];
 							break;
 						case 4: //add
-							int sum = registers[mask(inst,2)] + registers[mask(inst,3)];
+							int sum = registers[X] + registers[Y];
 							registers[0xF] = (sum > 0xFF)?1:0;
-							registers[mask(inst,2)] = sum;
+							registers[X] = sum;
 							break;
 						case 6: //shift right
 							if (EIGHTXY_VY) {
-								registers[mask(inst,2)] = registers[mask(inst,3)];
+								registers[X] = registers[Y];
 							}
-							registers[0xF] = mask(registers[mask(inst,2)],4);
-							registers[mask(inst,2)] = registers[mask(inst,2)] >> 1;
+							registers[0xF] = getX(registers[X]);
+							registers[X] = registers[X] >> 1;
 							break;
-						case 14: //shift left
+						case 0xE: //shift left
 							if (EIGHTXY_VY) {
-								registers[mask(inst,2)] = registers[mask(inst,3)];
+								registers[X] = registers[Y];
 							}
-							registers[0xF] = mask(registers[mask(inst,2)],4);
-							registers[mask(inst,2)] = registers[mask(inst,2)] << 1;
+							registers[0xF] = getX(registers[X]);
+							registers[X] = registers[X] << 1;
 
 							break;
 
 					}
+					printf("world");
 					break;
 				case 9:
-					if (registers[mask(inst,2)] != registers[mask(inst,3)]) {
+					if (registers[X] != registers[Y]) {
 						pc++;
 					}
 					break;
-				*/
 				case 0xA:
 					indexreg = NNN;
-					fprintf(stderr, "indexreg set to: %x\n", indexreg);
+					fprintf(LOGFILE, "indexreg set to: %x\n", indexreg);
 					break;
-				/*
 				case 0xB:
 					if (BXNN) {
-						pc = (inst & 0x0FFF) + registers[mask(inst,2)];
+						pc = (NNN) + registers[X];
 					} else {
-						pc = (inst & 0x0FFF) + registers[0];
+						pc = (NNN) + registers[0];
 					}
 					break;
 				case 0xC:
-					registers[mask(inst,2)] = (inst & 0xFF) && (rand());		
+					registers[X] = (NN) && (rand());		
 					break;
-				*/
 				case 0xD: //screen drawing
 					bool hasScreenChanged = false;
 					registers[0xF] = 0;
 					int y = registers[Y] % ORIG_HEIGHT;
 					for (int iter = 0; iter < N; iter++) {
 						int x = registers[X] % ORIG_WIDTH;
-						uint8_t row = reverseNum(memory[indexreg + iter]);
+						uint8_t row = memory[indexreg + iter];
+						int power = 7;
 						while (row > 0) {
-							bool bit = (bool) (row % 2);
+							bool bit = (bool) (row / (int) pow(2,power));
+							row = row - (bit * (int) pow (2,power));
+							power--;
 							bool pixelVal = getPixelVal(x,y);
 							bool newVal = bit ^ pixelVal;
 							if (newVal != pixelVal) {
@@ -280,7 +260,6 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 								x = 0;
 								break;
 							}
-							row = row / 2;
 						}
 						y++;
 						if (y > ORIG_HEIGHT) {
@@ -297,9 +276,9 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					break;
 				default: //means this is unknown
 					if (inst) {
-						fprintf(stderr,"Unknown instruction, maybe data: %x\n",inst);
+						fprintf(LOGFILE,"Unknown instruction, maybe data: %x\n",inst);
 					} else {
-						fprintf(stderr,"Memory is zero/0\n");
+						fprintf(LOGFILE,"Memory is zero/0\n");
 					}
 					break;
 			}
