@@ -21,12 +21,17 @@ int main(int argc, char **argv) {
 	loadROM(argv[1]);
 	
 	while (running) {
+		inputResult inputStuff = getInput();
+		
+		running = inputStuff.running;
+		keyPressed = inputStuff.value;
+
 		time_t beginningTime = time(NULL);
 		for (;ipc < INST_PER_SEC; ipc++) {
 			if (!(ipc % 60)) {
 				updateTimers();
 			}
-			eval(fetch(), rend, tex);
+			eval(fetch(), keyPressed, rend, tex);
 		}
 		if (time(NULL) - beginningTime >= 1) {
 			ipc = 0;
