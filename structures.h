@@ -114,6 +114,16 @@ int pop(void) {
 
 }
 
+void isUnknownInst(int inst) {
+
+	if (inst) {
+		fprintf(LOGFILE,"Unknown instruction, maybe data: %x\n",inst);
+	} else {
+		fprintf(LOGFILE,"Memory is zero/0\n");
+	}
+
+}
+
 int fetch(void) {
 
 	fprintf(LOGFILE,"memory: 0x%x\n",pc);
@@ -158,19 +168,13 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					pc = NNN - 2;
 					break;
 				case 3:
-					if (registers[X] == (NN)) {
-						pc+=2;
-					}
+					pc = (registers[X] == NN) ? (pc + 2) : pc;
 					break;
 				case 4:
-					if (registers[X] != (NN)) {
-						pc++;
-					}
+					pc = (registers[X] != NN) ? (pc + 2) : pc;
 					break;
 				case 5:
-					if (registers[X] == registers[Y]) {
-						pc++;
-					}
+					pc = (registers[X] == registers[Y]) ? (pc + 1) : pc;
 					break;
 				case 6:
 					registers[X] = NN;
@@ -226,20 +230,14 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					printf("world");
 					break;
 				case 9:
-					if (registers[X] != registers[Y]) {
-						pc++;
-					}
+					pc = (registers[X] != registers[Y]) ? (pc+1) : pc;
 					break;
 				case 0xA:
 					indexreg = NNN;
 					fprintf(LOGFILE, "indexreg set to: %x\n", indexreg);
 					break;
 				case 0xB:
-					if (BXNN) {
-						pc = (NNN) + registers[X];
-					} else {
-						pc = (NNN) + registers[0];
-					}
+					pc = (BXNN) ? (NNN + registers[X]) : (NNN + registers[0]);
 					break;
 				case 0xC:
 					registers[X] = (NN) && (rand());		
@@ -282,7 +280,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						SDL_RenderPresent(rend);
 					}
 					break;
-				case 0xF:
+				case 0xF: //misc instructions
 					switch (NN) {
 						case 7:
 							registers[X] = delayTimer;
@@ -324,20 +322,18 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 								}
 							}
 							break;
-						default:
+						default: //unknown instruction
+							isUnknownInst(inst);
 							break;
 					}
 					break;
 				default: //means this is unknown
-					if (inst) {
-						fprintf(LOGFILE,"Unknown instruction, maybe data: %x\n",inst);
-					} else {
-						fprintf(LOGFILE,"Memory is zero/0\n");
-					}
+					isUnknownInst(inst);	
 					break;
 			}
 			break;
 
 	}
+
 	pc+=2;
 }
