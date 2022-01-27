@@ -44,7 +44,11 @@ Clone this repo, ```cd``` into it and run ```make```. You'll get a ```vm``` exec
 
 ## Usage
 
-Right now, it just looks for ```ibm.ch8``` and runs it. More work will be done on this at a later stage.
+To run a specific ROM, run
+
+```bash
+./vm /path/to/ROM/file.ch8
+```
 
 ## Status
 
