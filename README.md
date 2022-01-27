@@ -6,7 +6,7 @@ This project aims to write a small and functional CHIP-8 emulator (or more accur
 
 Right now a lot of the basic instructions are implemented, but it's not quite ready yet.
 
-Note: the ```ibm.ch8``` ROM file is sourced from [this git repo](https://github.com/loktar00/chip8), and is included here temporarily for testing purposes.
+Note: the ```ibm.ch8``` ROM file that used to be included in the source code was sourced from [this git repo](https://github.com/loktar00/chip8), for testing purposes only.
 
 ## Origin
 
