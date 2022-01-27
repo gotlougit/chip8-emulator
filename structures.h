@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #include <stdint.h>
 #include "display.h"
 
@@ -28,6 +27,7 @@ uint16_t pc = INIT_MEM;
 uint8_t memory[MEM_SIZE];
 
 bool running = true;
+int keyPressed = -1;
 
 uint8_t font[80] = {
 		0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
@@ -145,6 +145,7 @@ int fetch(void) {
 void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	fprintf(LOGFILE,"inst: %x ",inst);
+
 	switch (inst) {
 		case 0xE0:
 			memset(pixels, 0, ORIG_PIXEL_COUNT - 1);
@@ -280,10 +281,30 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						SDL_RenderPresent(rend);
 					}
 					break;
+				case 0xE: //key pressing related
+					switch (NN) {
+						case 0x9E:
+							pc = (registers[X] == keyPressed) ? (pc + 2) : pc;
+							break;
+						case 0xA1:
+							pc = (registers[X] != keyPressed) ? (pc + 2) : pc;
+							break;
+						default:
+							isUnknownInst(inst);
+							break;
+					}
+					break;
 				case 0xF: //misc instructions
 					switch (NN) {
 						case 7:
 							registers[X] = delayTimer;
+							break;
+						case 0xA:
+							inputResult inputR = getInput();
+							running = inputR.running;
+							keyPressed = inputR.value;
+							pc = (keyPressed == -1) ? (pc - 2) : pc;
+							registers[X] = (keyPressed > -1) ? (keyPressed) : registers[X];
 							break;
 						case 0xF:
 							delayTimer = registers[X];	

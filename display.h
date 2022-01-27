@@ -1,5 +1,4 @@
-#include <SDL2/SDL.h>
-#include "features.h"
+#include "input.h"
 
 //macros to make life easier
 

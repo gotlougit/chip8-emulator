@@ -1,5 +1,6 @@
 #include <stdbool.h>
 #include <math.h>
+#include <SDL2/SDL.h>
 
 #define EIGHTXY_VY false
 #define BXNN false
