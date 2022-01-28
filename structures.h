@@ -251,9 +251,7 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 						uint8_t row = memory[indexreg + iter];
 						int power = 7;
 						while (row > 0) {
-							bool bit = (bool) (row / (int) pow(2,power));
-							row = row - (bit * (int) pow (2,power));
-							power--;
+							bool bit = (bool) (row >> power);
 							bool pixelVal = getPixelVal(x,y);
 							bool newVal = bit ^ pixelVal;
 							if (newVal != pixelVal) {
@@ -261,6 +259,8 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 							}
 							registers[0xF] = (!(newVal) && pixelVal);
 							setPixel(x,y,newVal);
+							row = row % ((int) pow(2,power));
+							power--;
 							x++;
 							if (x > ORIG_WIDTH) {
 								x = 0;
@@ -359,5 +359,5 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	}
 
-	pc+=2;
+	pc += 2;
 }
