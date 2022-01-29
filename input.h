@@ -85,7 +85,7 @@ inputResult getInput(void) {
 	inputResult out;
 	out.value = value;
 	out.running = running;
-
+	fprintf(LOGFILE,"INPUT: value = %x, running = %d\n", value, running);
 	return out;
 
 }

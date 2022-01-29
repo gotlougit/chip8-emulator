@@ -11,6 +11,8 @@
 #define getNN(inst,N) ((0x10*getY(inst)) + N)
 #define getNNN(inst,NN) ((0x100*getX(inst)) + NN)
 
+//important variables that implement most of the hardware of CHIP-8
+
 int ipc = 0;
 int reset = 0;
 
@@ -48,10 +50,11 @@ uint8_t font[80] = {
 		0xF0, 0x80, 0xF0, 0x80, 0x80  // F
 };
 
+//load ROM from disk
+
 void loadROM(char *loc) {
 	
 	FILE *fp;
-
 	fp = fopen(loc,"rb");
 	
 	if (fp != NULL) {
@@ -66,13 +69,13 @@ void loadROM(char *loc) {
 
 }
 
+//initialize memory by setting everything to zero and then loading font
+
 void initmemory(void) {
-	
-	for (int i = 0x0; i < INIT_MEM; i++) {
-		memory[i] = 0;
-		if (0x50 <= i && i < 0xA0) {
-			memory[i] = font[i-0x50];
-		}
+
+	memset(memory, 0, MEM_SIZE - 1);
+	for (int i = 0x50; i < 0xA0; i++) {
+		memory[i] = font[i-0x50];
 	}
 
 }
@@ -90,6 +93,8 @@ void updateTimers(void) {
 	fprintf(LOGFILE, "Delay timer: %d, Sound timer: %d\n",delayTimer,soundTimer);
 
 }
+
+//stack management
 
 int push(int value) {
 	
@@ -124,6 +129,8 @@ void isUnknownInst(int inst) {
 
 }
 
+//fetch next instruction and prevent overflows
+
 int fetch(void) {
 
 	fprintf(LOGFILE,"memory: 0x%x\n",pc);
@@ -141,6 +148,8 @@ int fetch(void) {
 	}
 	
 }
+
+//interpretes each instruction
 
 void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 
@@ -303,7 +312,7 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 							inputResult inputR = getInput();
 							running = inputR.running;
 							keyPressed = inputR.value;
-							pc = (keyPressed == -1) ? (pc - 2) : pc;
+							pc = (keyPressed > 0xF) ? (pc - 2) : pc;
 							registers[X] = (keyPressed != oldKeyPressed) ? (keyPressed) : registers[X];
 							break;
 						//timer related
