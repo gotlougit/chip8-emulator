@@ -29,7 +29,7 @@ uint16_t pc = INIT_MEM;
 uint8_t memory[MEM_SIZE];
 
 bool running = true;
-int keyPressed = -1;
+int key = 0;
 
 uint8_t font[80] = {
 		0xF0, 0x90, 0x90, 0x90, 0xF0, // 0
@@ -151,7 +151,7 @@ int fetch(void) {
 
 //interpretes each instruction
 
-void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
+void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	fprintf(LOGFILE,"inst: %x ",inst);
 
@@ -292,10 +292,10 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 				case 0xE: //key pressing related
 					switch (NN) {
 						case 0x9E:
-							pc = (registers[X] == keyPressed) ? (pc + 2) : pc;
+							pc = (registers[X] == (key - 1)) ? (pc + 2) : pc;
 							break;
 						case 0xA1:
-							pc = (registers[X] != keyPressed) ? (pc + 2) : pc;
+							pc = (registers[X] != (key - 1)) ? (pc + 2) : pc;
 							break;
 						default:
 							isUnknownInst(inst); //unknown instruction
@@ -309,11 +309,8 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 							break;
 						//input related
 						case 0xA:
-							inputResult inputR = getInput();
-							running = inputR.running;
-							keyPressed = inputR.value;
-							pc = (keyPressed > 0xF) ? (pc - 2) : pc;
-							registers[X] = (keyPressed != oldKeyPressed) ? (keyPressed) : registers[X];
+							registers[X] = (key) ? (key - 1) : registers[X];
+							pc = (key) ? (pc - 2) : pc;
 							break;
 						//timer related
 						case 0xF:
@@ -330,9 +327,9 @@ void eval(int inst, int oldKeyPressed, SDL_Renderer *rend, SDL_Texture *tex) {
 							break;
 						//convert to decimal
 						case 0x33:
-							memory[indexreg] = registers[X] % 10;
+							memory[indexreg + 2] = registers[X] % 10;
 							memory[indexreg+1] = (registers[X] / 10) % 10;		
-							memory[indexreg+2] = (registers[X] / 100);		
+							memory[indexreg] = (registers[X] / 100);		
 							break;
 						//memory load and store
 						case 0x55:

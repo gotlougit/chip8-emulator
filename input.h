@@ -7,18 +7,17 @@ typedef struct {
 
 inputResult getInput(void) {
 
-	int value = -1;
+	int value = 0;
 	bool running = true;
 
 	SDL_Event event;
 
 	while (SDL_PollEvent(&event)) {
 		switch (event.type) {
-			
 			case SDL_QUIT:
 				running = false;
 				break;
-			case SDL_KEYUP:
+			case SDL_KEYDOWN:
 				switch (event.key.keysym.scancode) {
 					case SDL_SCANCODE_ESCAPE:
 						running = false;
@@ -83,9 +82,11 @@ inputResult getInput(void) {
 	}
 	
 	inputResult out;
-	out.value = value;
+	out.value = value + 1;
 	out.running = running;
-	fprintf(LOGFILE,"INPUT: value = %x, running = %d\n", value, running);
+	if (value) {
+		fprintf(LOGFILE,"INPUT: value = %x, running = %d\n", value, running);
+	}
 	return out;
 
 }
