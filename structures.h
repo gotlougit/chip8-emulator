@@ -8,8 +8,8 @@
 #define getX(inst) ((inst / 0x100) % 0x10)
 #define getY(inst) ((inst / 0x10) % 0x10)
 #define getN(inst) (inst % 0x10)
-#define getNN(inst,N) ((0x10*getY(inst)) + N)
-#define getNNN(inst,NN) ((0x100*getX(inst)) + NN)
+#define getNN(Y,N) ((0x10*Y) + N)
+#define getNNN(X,NN) ((0x100*X) + NN)
 
 //important variables that implement most of the hardware of CHIP-8
 
@@ -86,7 +86,7 @@ void updateTimers(void) {
 		delayTimer--;
 	}
 	if (soundTimer > 0) {
-		//make beep sound
+		//TODO: make beep sound
 		soundTimer--;
 	}
 
@@ -169,8 +169,8 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 			int X = getX(inst);
 			int Y = getY(inst);
 			int N = getN(inst);
-			int NN = getNN(inst,N);
-			int NNN = getNNN(inst,NN);
+			int NN = getNN(Y,N);
+			int NNN = getNNN(X,NN);
 
 			switch (OPCODE) {
 				case 2: //so it falls through to case 1
