@@ -4,7 +4,7 @@
 
 This project aims to write a small and functional CHIP-8 emulator (or more accurately an interpreter, since CHIP-8 wasn't ever real hardware) in C using SDL to render the screen.
 
-Right now a lot of the basic instructions are implemented, but it's not quite ready yet.
+It implements most of the instructions, but there are still bugs to be fixed.
 
 Note: the ```ibm.ch8``` ROM file that used to be included in the source code was sourced from [this git repo](https://github.com/loktar00/chip8), for testing purposes only.
 
@@ -52,6 +52,4 @@ To run a specific ROM, run
 
 ## Status
 
-The emulator runs the test IBM ROM as of now, and the groundwork for most of the other instructions has already been laid.
-
-Input and audio are being worked on, but other than that, the rest of the emulator seems to work, but more testing is required to verify this.
+Input and audio are being worked on, but other than that, the rest of the emulator seems to work.

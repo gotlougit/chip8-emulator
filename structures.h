@@ -134,6 +134,7 @@ void isUnknownInst(int inst) {
 int fetch(void) {
 
 	fprintf(LOGFILE,"memory: 0x%x\n",pc);
+	pc+=2;
 	if (pc <= MEM_SIZE) {
 		return (0x100 * memory[pc]) + memory[pc+1];
 	} else {
@@ -185,7 +186,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					pc = (registers[X] != NN) ? (pc + 2) : pc;
 					break;
 				case 5: //skip if equal
-					pc = (registers[X] == registers[Y]) ? (pc + 1) : pc;
+					pc = (registers[X] == registers[Y]) ? (pc + 2) : pc;
 					break;
 				case 6: //set
 					registers[X] = NN;
@@ -220,7 +221,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							if (EIGHTXY_VY) {
 								registers[X] = registers[Y];
 							}
-							registers[0xF] = getX(registers[X]);
+							registers[0xF] = registers[X] & 1;
 							registers[X] = registers[X] >> 1;
 							break;
 						case 7: //subtract x from y
@@ -231,7 +232,7 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 							if (EIGHTXY_VY) {
 								registers[X] = registers[Y];
 							}
-							registers[0xF] = getX(registers[X]);
+							registers[0xF] = (registers[X] >> 7) & 1;
 							registers[X] = registers[X] << 1;
 
 							break;
@@ -239,14 +240,15 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 					}
 					break;
 				case 9: //skip if not equal
-					pc = (registers[X] != registers[Y]) ? (pc+1) : pc;
+					pc = (registers[X] != registers[Y]) ? (pc+2) : pc;
 					break;
 				case 0xA: //set indexreg
 					indexreg = NNN;
 					fprintf(LOGFILE, "indexreg set to: %x\n", indexreg);
 					break;
 				case 0xB: //jump with offset
-					pc = (BXNN) ? (NNN + registers[X]) : (NNN + registers[0]);
+					//pc = (BXNN) ? (NNN + registers[X]) : (NNN + registers[0]);
+					pc = NNN + registers[0];
 					break;
 				case 0xC: //RNG
 					registers[X] = (NN) && (rand());		
@@ -328,8 +330,8 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 						//convert to decimal
 						case 0x33:
 							memory[indexreg + 2] = registers[X] % 10;
-							memory[indexreg+1] = (registers[X] / 10) % 10;		
-							memory[indexreg] = (registers[X] / 100);		
+							memory[indexreg+1] = (registers[X] / 10) % 10;	
+							memory[indexreg] = (registers[X] / 100);
 							break;
 						//memory load and store
 						case 0x55:
@@ -365,5 +367,4 @@ void eval(int inst, SDL_Renderer *rend, SDL_Texture *tex) {
 
 	}
 
-	pc += 2;
 }
